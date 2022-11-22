@@ -1,0 +1,81 @@
+@media screen and (max-width: 983px) {
+    .container .box1{
+        width: 40%;
+        height: 60%;
+    }
+    .container .box2{
+        width: 40%;
+        height: 60%;
+    }
+    .box2 input{
+        width: 110px;
+    }
+
+    .box2 #from{
+        margin-bottom: 20px ;
+    }
+    /* .box2 #from div ::-webkit-input-placeholder{
+        padding-left: 18px;
+    } */
+    
+}
+@media screen and (max-width: 768px) {
+    .container .box1{
+        width: 42%;
+        height: 60%;
+    }
+    .container .box2{
+        width: 50%;
+        height: 60%;
+    }
+}
+@media screen and (max-width: 576px) {
+   .nav{
+       width: 1241px;
+       height: 150px;
+       /* background-color: black; */
+       margin-bottom: 30px;
+   }
+   .nav h2{
+       margin: 0 auto;
+       display: flex;
+       align-items: center;
+       font-size: 70px;
+   }
+   .container{
+       display: inline-block;
+   }
+   .container .box1{
+       margin: 0 auto;
+       width: 800px;
+       margin-bottom: 50px;
+   }
+   .container .box2{
+       margin: 0 auto;
+       width: 800px;
+       height: 700px;
+   }
+   .box2 .heading{
+       margin-top: 20px;
+   }
+   .box2 .heading h4{
+       font-size: 40px;
+   }
+   .box2 #from div label{
+       font-size: 30px;
+   }
+   .box2 .heading2 h4{
+       font-size: 40px;
+       margin-top: 30px;
+   }
+   .box2 button{
+       margin-top: -30px;
+       width: 200px;
+       height: 50px;
+       margin-top: 20px;
+       font-size: 27px;
+   }
+   .box2 #from div .input input{
+       height: 50px;
+   }
+}
