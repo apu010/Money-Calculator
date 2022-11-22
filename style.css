@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    box-sizing: border-box;
 }
 body{
     background-color: #f5f5dc62;
@@ -61,24 +62,35 @@ h2{
 
 }
 .box2 #from div input{
-    margin-left: 20px;
+    /* margin-left: 20px; */
+    margin: 0 auto;
     border-radius: 5px;
     border: none;
     background-color: rgba(163, 163, 163, 0.322);
+    width: 100%;
 }
-.box2 #from div ::-webkit-input-placeholder{
+.box2 #from div .input{
+    width: 100%;
+    height: 30px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* background-color: black; */
+}
+/* .box2 #from div ::-webkit-input-placeholder{
     color: rgba(255, 0, 0, 0.719);
-    text-align: center;
-}
+    /* text-align: center; */
+    /* padding-left: 10px; */
+    
+} */
 .box2 #from div #food{
-    margin-left: 36.5px;
+    /* margin-left: 36.5px; */
 }
 .box2 #from div #living{
-    margin-left: 31px;
+    /* margin-left: 31px; */
 }
-.box2 #from div #lifeStyle{
+/* .box2 #from div #lifeStyle{
     margin-left:15.5px;
-}
+} */
 button{
     margin-top: 30px;
     width: 100px;
