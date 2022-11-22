@@ -10,9 +10,12 @@
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-    <h2>Expenses Manager <span><i class="bi bi-coin"></i></span> </h2>
+    <div class="nav">
+        <h2>Expenses Manager <span><i class="bi bi-coin"></i></span> </h2>
+    </div>
     <div class="container">
         <div class="box1">
             <img src="1.jpg" alt="">
@@ -24,24 +27,32 @@
             <div id="from">
                 <div>
                  <label for="#">Income</label>
-                 <input type="number" id="income" placeholder="Income">
+                    <div class="input">
+                        <input type="number" id="income">
+                    </div>
                 </div>
                 <div class="heading2">
                     <h4>Expenses</h4>
                 </div>
                 <div>
                     <label for="#">Food</label>
-                    <input type="number" id="food" placeholder="food">
+                        <div class="input">
+                            <input type="number" id="food">
+                        </div>
                 </div>
                 <br>
                 <div>
                     <label for="#">Living</label>
-                    <input type="number" id="living" placeholder="Living">
+                        <div class="input">
+                            <input type="number" id="living">
+                        </div>
                 </div>
                 <br>
                 <div>
                     <label for="#">Lifestyle</label>
-                    <input type="number" id="lifeStyle" placeholder="Life Style">
+                        <div class="input">
+                            <input type="number" id="lifeStyle">
+                        </div>
                 </div>
             </div>
             <button id="process">Calculate</button>
