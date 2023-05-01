@@ -1,15 +1,4 @@
-function calculate(income,expenses) {
-    let sumofExpenses = expenses.reduce(function(result, currentValue){
-        return result + currentValue
-    },0)
-    let balance = income - sumofExpenses
-    return{
-        balance : balance,
-        expenses : sumofExpenses
-    }
-}
-
-let food = 0
+        let food = 0
         let living = 0
         let lifeStyle = 0
         let income = 0
@@ -21,6 +10,18 @@ let food = 0
             income = parseInt(document.getElementById('income').value)
             expenses = [food, living, lifeStyle]
         })
+
+function calculate(income,expenses) {
+    let sumofExpenses = expenses.reduce(function(result, currentValue){
+        return result + currentValue
+    },0)
+    let balance = income - sumofExpenses
+    return{
+        balance : balance,
+        expenses : sumofExpenses
+    }
+}
+
         document.getElementById('process').addEventListener('click', function(){
             let caluclation = calculate(income, expenses)
             document.getElementById('expenses').innerText = caluclation.expenses
